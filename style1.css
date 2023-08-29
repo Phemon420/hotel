@@ -1,0 +1,182 @@
+/* Apply some basic styling to the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.rates,
+form,
+div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 600px;
+    
+}
+
+select,
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+label[for="html"],
+label[for="css"] {
+    margin-right: 10px;
+}
+
+form {
+    text-align: center; /* Center-align form content */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Styling for the footer */
+div ul li p {
+    margin: 0;
+    font-size: 12px;
+    color: #555;
+}
+
+/* Styling for the "I Agree" radio button and label */
+#htm {
+    margin-right: 5px;
+}
+
+/* Center the terms and conditions text */
+div ul p {
+    text-align: center;
+}
+
+/* Styling for the "Proceed to Pay" button */
+#redirectToPage {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#redirectToPage:hover {
+    background-color: #0056b3;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-weight: 900;
+}
+.nope{
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.rates{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#roomType{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.wahh{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    height: 100vh;
+    margin: 50px;
+    margin-bottom: 100px;
+  }
+
+  .one{
+    position: absolute;
+    width: 600px;
+    height: 410px;
+    top: 310px;
+    left: 100px;
+    
+  }
+  .two{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 320px;
+    left: 720px;
+   
+  }
+  .three{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 530px;
+    left: 720px;
+    
+  }
+  .four{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 750px;
+    left: 520px;
+  }
+  .five{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 750px;
+    left: 300px;
+  }
+  .six{
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    top: 750px;
+    left: 100px;
+  }
+  .seven{
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    top: 750px;
+    left: 740px;
+  }
